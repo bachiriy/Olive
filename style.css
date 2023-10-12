@@ -1,0 +1,546 @@
+.body-index {
+    margin: 20px 40px;
+    margin-bottom: 0;
+    background-image: url("background.png");
+    background-size: 100% 740px;
+    background-repeat: no-repeat;
+}
+.body-other {
+    margin: 20px 40px;
+    margin-bottom: 0;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(3, 88, 0);
+
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    justify-content: space-between;
+    padding: 0px 23px 0px 15px;
+    background-color: white;
+    border-radius: 7px;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.367);
+    border: 1px solid rgb(225, 225, 225);
+    transition: .3s;
+}
+.nav-left a:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: .3s;
+}
+.nav-left p{
+    margin: 0;
+}
+.nav-left img{
+    height: 45px;
+    padding-right: 5px;
+    transition: .3s;
+}
+.nav-left img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.nav-midlle{
+    display: flex;
+    font-family: helvetica;
+    margin: 0 20px;
+    min-width: 350px;
+    justify-content: space-between;
+}
+.nav-right-other {
+    display: flex;
+    font-family: helvetica;
+    margin: 0 20px;
+    min-width: 350px;
+    justify-content: space-between;
+}
+.nav-right-other a {
+    font-weight: bold;
+    color: rgb(9, 89, 1);
+    text-decoration: none;
+    transition: .3s;
+
+}
+.nav-right-other p{
+    margin: 0;
+}
+.nav-right-other a:hover {
+    opacity: .3;
+    transition: .3s;
+}
+.nav-midlle a {
+    color: rgb(255, 255, 255);  
+    text-decoration: none;  
+}
+.nav-midlle p {
+    font-weight: bold;
+    margin: 0;
+    transition: .3s;
+}
+.nav-midlle p:hover {
+    cursor: pointer;
+    color: rgb(9, 89, 1);
+    transition: .3s;
+}
+.nav-right {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.567);
+    border: 1px solid rgb(225, 225, 225);
+}
+.nav-icon {
+    height: 25px;
+}
+.nav-icon:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.737);
+    border-radius: 50px;
+    transform: scale(1.1);
+}
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 700px;
+    width: 550px;
+}
+.content-1 button{
+    font-family: helvetica;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.854);
+    background-color: rgb(0, 56, 0);
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.737);
+    transition: .3s;
+}
+.content-1 button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .3s;
+}
+.content-1 h2 {
+    font-family: helvetica;
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    padding: 40px 0;
+}
+.text {
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    font-family: helvetica;
+}
+.bienvenue {
+    color: rgb(9, 89, 1);
+    margin-bottom: 30px;
+    font-family: helvetica;
+    font-size: 30px;
+}
+.content-2 {
+    margin: 80px 0;
+    font-family: helvetica;
+    display: flex;
+    width: 100%;
+}
+.content-left {
+    align-self: center;
+    margin: 20px;
+    width: 50%;
+}
+.content-left p{
+    width: 76%;
+
+}
+.content-right {
+    display: flex;
+    width: 50%;
+}
+
+.card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 70px rgba(86, 86, 86, 0.584);
+    border-radius: 7px;
+    margin: 20px;
+    transition: .3s;
+}
+.card:hover {
+    transform: scale(1.03);
+    transition: .3s;
+}
+.card h2 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.card img {
+    align-self: center;
+    width: 250px;
+    border-radius: 5px;
+}
+.Lire-la-Suite {
+    color: green;
+}
+.Lire-la-Suite:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/********************** before footer content  ********************/
+.footer-content {
+    font-family: helvetica;
+    margin: 100px 40px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(12, 141, 0, 0.497));
+    border-radius: 7px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.bfc-title {
+    color: rgb(119, 119, 119);
+    border-bottom: 2px solid rgb(119, 119, 119);
+    font-family: helvetica;
+}
+.bfc-title h1 {
+    margin-top: 0;
+}
+.bfc-cards {
+    margin: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bfc-cards div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: fit-content;
+    box-shadow: 0 0 100px rgba(91, 91, 91, 0.486);
+    transition: .3s;
+}
+.bfc-cards div:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 3.s;
+}
+.bfc-cards div img{
+    margin-bottom: 20px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    width: 100%;
+}
+.bfc-cards div p, .bfc-cards div h2{
+    padding: 0 40px;
+}
+.bfc-cards p{
+    margin-bottom: 40px;
+}
+
+.taille-cnt-1 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    background-color: rgba(9, 255, 0, 0.185);
+    margin: 80px 0;
+    padding: 60px 0;
+    font-family: helvetica;
+    width: 100%;
+}
+.taille-cnt-1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.taille-cnt-1 div h2, .taille-cnt-1 div p {
+    align-self: flex-start;
+    padding: 0 50px;
+}
+.taille-cnt-1 img {
+    width: 80%;
+    border-radius: 7px;
+}
+
+.taille-content-div {
+    margin: 0 0 250px 0;
+}
+.taille-cnt-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 60px 0;
+}
+.taille-cnt-2 h2 {
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid green;
+    margin: 0 0 10px 0;
+    color: rgb(3, 88, 0);
+    font-family: helvetica;
+}
+.taille-cnt-2 p {
+    font-family: helvetica;
+    background-color: rgba(9, 255, 0, 0.185);
+    border-radius: 7px;
+    padding: 20px 40px;
+    margin: 10px 0;
+}
+.taille-cnt-2 h3 {
+    align-self: flex-start;
+    padding-bottom: 10px;
+    color: rgb(122, 122, 122);
+    text-shadow: 0 0 40px rgba(30, 255, 0, 0.804);
+    font-family: helvetica;
+    font-size: 20px;
+    border-bottom: 1px solid green;
+}
+.taille-cnt-2 h3:hover {
+    cursor: default;
+}
+.taille-cnt-2 .h3-1:hover::after {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    content: "sur le jeune arbre, a pour but de former un monotronc en éliminant les branches afin de renforcer la ligne centrale. Quand le jeune olivier atteint 1.50m, il convient de lui donner une forme équilibrée et rationnelle pour son exploitation.";
+}
+.taille-cnt-2 .h3-2:hover::after {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    content: "est pour sa part limitée à l’entretien et à l’harmonisation. Elle est annuelle et ne doit pas être trop sévère sinon elle irait à l’encontre de la régulation de la production de l’olivier mais les tailles successives améliorent les récoltes.";
+}
+.taille-cnt-2 .h3-3:hover::after {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    content: "généralement sévère, se pratique pour rénover un arbre devenu improductif par vieillissement ou négligence. On ramène donc la végétation à un volume plus faible et plus ramassé près du tronc.";
+}
+.h3-cnt-2 {
+    color: rgb(86, 86, 86);
+    font-size: 25px;
+    font-family: helvetica;
+    margin: 100px 0 10px 0;
+}
+.taille-cnt-2-acheter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.taille-cnt-2-acheter h2 {
+    align-self: flex-start;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid green;
+    margin: 0 0 10px 0;
+    color: rgb(3, 88, 0);
+    font-family: helvetica;
+}
+.acheter-Cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.acheter-Cards p {
+    color: rgb(56, 56, 56);
+    background: none;
+    font-size: 18px;
+    font-family: helvetica;
+    padding: 0 80px;
+}
+.acht-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 60px 0;
+}
+.acht-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 18%;
+    padding: 60px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 50px rgba(86, 86, 86, 0.321);
+    transition: .3s;
+}
+.acht-card div:hover {
+    transform: scale(1.02);
+    transition: .3s;
+}
+.acht-card div p {
+    height: 30px;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+}
+.acht-card div a {
+    margin-top: 20px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.854);
+    background-color: rgb(0, 191, 0);
+    text-decoration: none;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(68, 255, 0, 0.362);
+    transition: .3s;
+}
+.acht-card div a:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .3s;
+}
+.product-img {
+    margin-bottom: 20px;
+    width: 200px;
+}
+.stars {
+    width: 100px;
+}
+
+
+.livres-content {
+    margin: 80px 0;
+    text-align: center;
+    color: green;
+    font-family: helvetica;
+}
+.livres-content h3 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.varietes-content-1{
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica;
+    margin: 40px 0;
+}
+.varietes-content-1 h2 {
+    color: green;
+    text-align: center;
+}
+.varietes-content-1 p {
+    border-radius: 7px;
+    background-color: rgba(9, 255, 0, 0.185);
+    margin: 10px 0;
+    padding: 20px 40px;
+}
+.varietes-content-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 40px;
+    font-family: helvetica;
+    color: green;
+}
+.varietes-content-2 div p{
+    width: fit-content;
+    color: rgb(122, 122, 122);
+    text-shadow: 0 0 40px rgba(30, 255, 0, 0.804);
+    font-family: helvetica;
+    font-size: 20px;
+    border-bottom: 1px solid green;
+    margin: 10px 60px;
+    padding: 10px 0;
+}
+.varietes-content-2 div p:hover {
+    cursor: pointer;
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "Elle est cultivée dans les Alpes-de-Hautes-Provence (04), les Bouches-du-Rhône (13) , dans le Vaucluse (84) et dans le Var. Très bonne résistance au froid. Pollinisateur, Cayon et Picholine.";
+}
+
+.p2:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "C’est la variété la plus répandue en France, on la trouve dans tout le sud. On la récolte en vert aussi bien en olive de table que pour en faire de l’huile. Résistance au froid moyen. Rendement huile moyen.";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "Elle est originaire de France et se cultive dans l’Hérault. Elle est récoltée en vert et surtout utilisée pour la conserve.";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "Elle est localisée dans la vallée des Baux-de-Provence, elle est rustique et résiste au froid. Elle bénéficie de l’A.O.C.";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "Elle est très recherchée, elle est très généreuse en huile et utilisée en confiserie. Elle a bénéficié de la première A.O.C. en 1995. On la trouve surtout dans le sud de la Drôme (26) dans les vallées de l’Ouvèze autour de Buis-les-Baronnies et de l’Eygues autour de Nyons, ainsi que dans quelques oliveraies dans le Nord du Vaucluse (Olive noire de Nyons).";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "Elle est typique des Alpes-Maritimes (06). On la récolte en noire, c’est  » l’olive noire de Nice « . A.O.C. 2001 Décret du 20 avril 2001 relatif à l’appellation d’origine contrôlée « Olive de Nice » J.O. du 27/04/2001.";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "Elle est originaire de Salon-de-Provence, on ne la trouve que dans les Bouches-du-Rhône (13). Elle est principalement destinée à la préparation des olives cassées mais aussi pour produire de l’huile.";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "";
+}
+.p1:hover::after {
+    color: rgb(29, 193, 0);
+    font-size: 17px;
+    font-weight: normal;
+    content: "";
+}
+/*****************************  footer ****************************/
+footer p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+    color: green;
+    margin: 0;
+    height: 60px;
+    border-top: 1px solid green;
+}
