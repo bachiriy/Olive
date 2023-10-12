@@ -1,7 +1,7 @@
 .body-index {
     margin: 20px 40px;
     margin-bottom: 0;
-    background-image: url("background.png");
+    background-image: url("imgs/background.png");
     background-size: 100% 740px;
     background-repeat: no-repeat;
 }
@@ -48,8 +48,8 @@
     margin: 0;
 }
 .nav-left img{
-    height: 45px;
-    padding-right: 5px;
+    height: 35px;
+    padding: 7px 7px 7px 0;
     transition: .3s;
 }
 .nav-left img:hover{
@@ -212,54 +212,6 @@
 .Lire-la-Suite:hover {
     cursor: pointer;
     text-decoration: underline;
-}
-/********************** before footer content  ********************/
-.footer-content {
-    font-family: helvetica;
-    margin: 100px 40px;
-    background: linear-gradient(to right, rgb(255, 255, 255), rgba(12, 141, 0, 0.497));
-    border-radius: 7px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-}
-.bfc-title {
-    color: rgb(119, 119, 119);
-    border-bottom: 2px solid rgb(119, 119, 119);
-    font-family: helvetica;
-}
-.bfc-title h1 {
-    margin-top: 0;
-}
-.bfc-cards {
-    margin: 60px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.bfc-cards div {
-    background-color: rgb(255, 255, 255);
-    border-radius: 7px;
-    width: fit-content;
-    box-shadow: 0 0 100px rgba(91, 91, 91, 0.486);
-    transition: .3s;
-}
-.bfc-cards div:hover{
-    cursor: pointer;
-    transform: scale(1.02);
-    transition: 3.s;
-}
-.bfc-cards div img{
-    margin-bottom: 20px;
-    border-top-right-radius: 7px;
-    border-top-left-radius: 7px;
-    width: 100%;
-}
-.bfc-cards div p, .bfc-cards div h2{
-    padding: 0 40px;
-}
-.bfc-cards p{
-    margin-bottom: 40px;
 }
 
 .taille-cnt-1 {
@@ -441,17 +393,23 @@
     font-weight: normal;
 }
 
-.varietes-content-1{
+
+.content-style {
     display: flex;
     flex-direction: column;
     font-family: helvetica;
-    margin: 40px 0;
+    margin: 80px 40px;
 }
-.varietes-content-1 h2 {
+.content-style h2 {
+    margin-bottom: 60px;
     color: green;
     text-align: center;
 }
-.varietes-content-1 p {
+.content-style h3 {
+    color: rgb(75, 75, 75);
+    text-align: start;
+}
+.content-style p {
     border-radius: 7px;
     background-color: rgba(9, 255, 0, 0.185);
     margin: 10px 0;
@@ -464,14 +422,17 @@
     font-family: helvetica;
     color: green;
 }
+.varietes-content-2 h2 {
+    margin-top: 60px;
+}
 .varietes-content-2 div p{
     width: fit-content;
-    color: rgb(122, 122, 122);
-    text-shadow: 0 0 40px rgba(30, 255, 0, 0.804);
+    color: rgb(31, 31, 31);
+    text-shadow: 0 0 40px rgba(30, 255, 0, 0.505);
     font-family: helvetica;
     font-size: 20px;
     border-bottom: 1px solid green;
-    margin: 10px 60px;
+    margin: 10px 40px;
     padding: 10px 0;
 }
 .varietes-content-2 div p:hover {
@@ -490,49 +451,101 @@
     font-weight: normal;
     content: "C’est la variété la plus répandue en France, on la trouve dans tout le sud. On la récolte en vert aussi bien en olive de table que pour en faire de l’huile. Résistance au froid moyen. Rendement huile moyen.";
 }
-.p1:hover::after {
+.p3:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
     content: "Elle est originaire de France et se cultive dans l’Hérault. Elle est récoltée en vert et surtout utilisée pour la conserve.";
 }
-.p1:hover::after {
+.p4:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
     content: "Elle est localisée dans la vallée des Baux-de-Provence, elle est rustique et résiste au froid. Elle bénéficie de l’A.O.C.";
 }
-.p1:hover::after {
+.p5:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
     content: "Elle est très recherchée, elle est très généreuse en huile et utilisée en confiserie. Elle a bénéficié de la première A.O.C. en 1995. On la trouve surtout dans le sud de la Drôme (26) dans les vallées de l’Ouvèze autour de Buis-les-Baronnies et de l’Eygues autour de Nyons, ainsi que dans quelques oliveraies dans le Nord du Vaucluse (Olive noire de Nyons).";
 }
-.p1:hover::after {
+.p6:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
     content: "Elle est typique des Alpes-Maritimes (06). On la récolte en noire, c’est  » l’olive noire de Nice « . A.O.C. 2001 Décret du 20 avril 2001 relatif à l’appellation d’origine contrôlée « Olive de Nice » J.O. du 27/04/2001.";
 }
-.p1:hover::after {
+.p7:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
     content: "Elle est originaire de Salon-de-Provence, on ne la trouve que dans les Bouches-du-Rhône (13). Elle est principalement destinée à la préparation des olives cassées mais aussi pour produire de l’huile.";
 }
-.p1:hover::after {
+.p8:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
-    content: "";
+    content: "La Bouteillan est surtout cultivée dans le Var, elle a une bonne résistance au froid, un bon rendement en huile, ses pollinisateurs sont : Cayon, Grossanne et Verdale de l’Herault. La Négrette et le Vermillon sont cultivées dans le Var (83). L’Olivière est cultivée dans l’Aude (11), l’Hérault (34), elle a une forte résistance au froid. L’Amillau, La Corniale, La Redonale et La Verdale sont cultivées dans l’Hérault (34). Le Poumal ou la Ouanne sont cultivées dans les Pyrénées-Orientales (66). Tableau détaillé de certaines des variétés ici";
 }
-.p1:hover::after {
+.p9:hover::after {
     color: rgb(29, 193, 0);
     font-size: 17px;
     font-weight: normal;
-    content: "";
+    content: "Un article paru dans « La Provence » au mois de septembre (03) affirme que les olives vertes sont deux fois moins grasses que les olives noires. En effet, les olives vertes sont cueillies avant maturité elles sont donc deux fois moins caloriques que les noires. 118 kcal / 100 g pour les vertes contre 293 Kcal / 100 g pour les noires.";
 }
 /*****************************  footer ****************************/
+
+.footer-content {
+    font-family: helvetica;
+    margin: 100px 40px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(12, 141, 0, 0.497));
+    border-radius: 7px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-cnt-title {
+    color: rgb(119, 119, 119);
+    border-bottom: 2px solid rgb(119, 119, 119);
+    font-family: helvetica;
+}
+.footer-cnt-title h1 {
+    margin-top: 0;
+    text-align: center;
+}
+.footer-cnt-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 60px 40px;
+}
+.footer-cnt-cards div {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 0 100px rgba(91, 91, 91, 0.486);
+    transition: .3s;
+}
+.footer-cnt-cards div:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 3.s;
+}
+.footer-cnt-cards div img{
+    align-self: center;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    width: 100%;
+}
+.footer-cnt-cards div p, .footer-cnt-cards div h2{
+    text-align: center;
+}
+.footer-cnt-cards p{
+    margin-bottom: 40px;
+}
+
+
 footer p{
     display: flex;
     flex-direction: column;
