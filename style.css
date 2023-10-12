@@ -129,19 +129,20 @@
     height: 700px;
     width: 550px;
 }
-.content-1 button{
+.content-1 a{
     font-family: helvetica;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.854);
     background-color: rgb(0, 56, 0);
     border: 0;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 9px;
     font-size: 20px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.737);
     transition: .3s;
+    text-decoration: none;
 }
-.content-1 button:hover{
+.content-1 a:hover{
     cursor: pointer;
     transform: scale(1.05);
     transition: .3s;
