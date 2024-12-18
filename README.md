@@ -50,9 +50,6 @@ Olivier de Provence is a company with 20 years of experience in olive trees and 
 ## Author
 Mohammed El Bachiri
 
-## License
-[MIT License]
-
 ## Acknowledgments
 - Olivier de Provence
 - Simplon Online Training Program
